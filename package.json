@@ -1,0 +1,14 @@
+{
+  "name": "mapa-da-biblia",
+  "version": "1.0.0",
+  "description": "Todos os 73 Livros em um Mapa Mental Católico",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node -e \"console.log('Build completed successfully')\""
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

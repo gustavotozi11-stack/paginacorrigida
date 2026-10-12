@@ -1,0 +1,8 @@
+{
+  "name": "Mapa da Bíblia",
+  "description": "Conheça o Mapa da Bíblia: um mapa mental completo com todos os 73 livros da Bíblia Católica. Entenda a estrutura, os personagens, os eventos e as conexões entre os livros de forma visual e organizada.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}
