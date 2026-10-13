@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&family=Merriweather:wght@300;400;700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..900;1,8..60,300..900&display=swap');
-
 :root {
     --background: #fafafa;
     --foreground: #216FED;
@@ -22,9 +20,9 @@
     --ring: oklch(0.5705 0.2044 260.0778);
 
     --radius: 0.5rem;
-    --font-sans: 'Merriweather', serif;
-    --font-serif: 'Source Serif 4', serif;
-    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Merriweather', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-serif: 'Source Serif 4', Georgia, Cambria, 'Times New Roman', serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
 }
 
 body {
@@ -51,11 +49,11 @@ body {
 
 @keyframes scroll {
     0% {
-        transform: translateX(0);
+        transform: translate3d(0, 0, 0);
     }
 
     100% {
-        transform: translateX(-50%);
+        transform: translate3d(-50%, 0, 0);
     }
 }
 
@@ -63,6 +61,7 @@ body {
     animation: scroll 40s linear infinite;
     display: flex;
     width: max-content;
+    will-change: transform;
 }
 
 .animate-scroll:hover {
